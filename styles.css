@@ -53,7 +53,7 @@ nav a:focus {
   color: #e9dccd;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1000px) {
   nav li {
     margin: 0 1em;
   }
@@ -81,7 +81,7 @@ nav a:focus {
   position: relative;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1000px) {
   .header-section {
     height: 10em;
   }
@@ -144,7 +144,7 @@ nav a:focus {
   top: 30%;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1000px) {
   .leaves-container-1 {
     width: 1.5%;
     right: 17%;
@@ -196,7 +196,7 @@ nav a:focus {
   right: -10%;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1000px) {
   .image-container {
     width: 45%;
     right: -20%;
@@ -239,7 +239,7 @@ nav a:focus {
   padding: 0;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1000px) {
   .header-section-container {
     padding: 0;
     margin: 0 auto;
@@ -326,7 +326,7 @@ h2 {
   background: #e9dccd;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1000px) {
   #stroke1,
   #stroke2 {
     margin: 0;
@@ -376,7 +376,7 @@ h2 {
   justify-content: center;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1000px) {
   .containers-section {
     padding: 0.5em 0;
   }
@@ -414,7 +414,7 @@ h2 {
   background: #36384c;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1000px) {
   .info-box {
     margin: 0.5em;
     max-width: 26%;
@@ -594,7 +594,7 @@ form .item {
   flex-direction: column;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1000px) {
   .form-container .second-line {
     width: 108%;
     margin: -0.5em 0 0 0;
