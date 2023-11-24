@@ -53,20 +53,13 @@ nav a:focus {
   color: #e9dccd;
 }
 
-/* from a minimum width up to a width of 460px */
-@media (min-width: 460px) and (max-width: 690px) {
-  nav li {
-    margin: 0 0.5em;
-  }
-}
-
-@media (max-width: 460px) {
+@media (max-width: 600px) {
   nav li {
     margin: 0 0.29em;
   }
 
   nav a {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -78,9 +71,9 @@ nav a:focus {
   position: relative;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 600px) {
   .header-section {
-    height: 7em;
+    height: 8em;
   }
 }
 
@@ -135,6 +128,12 @@ nav a:focus {
   top: 30%;
 }
 
+@media (max-width: 600px) {
+  .leaves-container {
+    display: none;
+  }
+}
+
 .image-container {
   width: 55%;
   position: absolute;
@@ -142,11 +141,12 @@ nav a:focus {
   right: -10%;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 600px) {
   .image-container {
-    width: 70%;
-    right: -35%;
-    top: 0;
+    width: 75%;
+    right: -20%;
+    top: 25%;
+    transform: rotate(-40deg);
   }
 }
 
@@ -176,20 +176,27 @@ nav a:focus {
   padding: 0;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 600px) {
   .header-section-container {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
   }
 
   .title-section {
-    margin: 0;
+    margin: 0 0 0 2em;
     display: flex;
     flex-direction: column-reverse;
+    align-items: flex-start;
   }
 
   .subtitle {
+    margin: -0.5em 0;
     display: flex;
+    flex-direction: column;
+  }
+
+  .order-box {
+    margin: 0.5em 0 0 2em;
   }
 }
 
@@ -234,15 +241,22 @@ h2 {
   background: #e9dccd;
 }
 
-@media (max-width: 460px) {
-  h2 {
-    font-size: 0.5rem;
-    margin: 0 1em;
+@media (max-width: 600px) {
+  #stroke1,
+  #stroke2 {
+    margin: 0;
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
   }
 
   h1 {
-    margin: 0.2em 0 0 0;
-    font-size: 2.9rem;
+    margin: 0.1em 0 0 0;
+    font-size: 3.5rem;
+  }
+
+  .order-box a {
+    padding: 0.5em 1em;
+    font-size: 0.5rem;
   }
 }
 /* Info containers */
@@ -259,7 +273,7 @@ h2 {
   justify-content: center;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 600px) {
   .containers-section {
     padding: 0.5em 0;
   }
@@ -287,7 +301,7 @@ h2 {
   background: #36384c;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 600px) {
   .info-box {
     margin: 1em;
     max-width: 95%;
@@ -304,7 +318,7 @@ h2 {
   text-align: left;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 600px) {
   .containers p {
     font-size: 0.8rem;
   }
@@ -326,7 +340,7 @@ h2 {
   color: #613a43;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 600px) {
   .info-box a {
     padding: 0.5em 1.8em;
   }
@@ -360,6 +374,12 @@ footer {
   text-align: left;
 }
 
+@media (max-width: 600px) {
+  .col {
+    width: 100%;
+  }
+}
+
 .form-container {
   margin: 0;
   color: #36384c;
@@ -384,6 +404,16 @@ h3 {
 .form-container label {
   text-transform: uppercase;
   font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  h3 {
+    font-size: 0.8;
+  }
+
+  .form-container h3 {
+    font-size: 1.4rem;
+  }
 }
 
 /* Footer
@@ -444,6 +474,28 @@ form .item {
   flex-direction: column;
 }
 
+@media (max-width: 600px) {
+  .form-container {
+    margin-right: 15%;
+    width: 65%;
+  }
+
+  .form-container .second-line {
+    width: 145%;
+    margin: -0.5em 0 0 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .question-form-container {
+    width: 100%;
+  }
+
+  textarea {
+    margin-right: 1em;
+  }
+}
+
 footer input {
   margin-top: -1em;
   background: transparent;
@@ -488,10 +540,15 @@ textarea:focus {
   background: #36384c;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 600px) {
   .container-footer {
     display: flex;
     flex-direction: column-reverse;
+  }
+
+  .form-container a {
+    margin: 0;
+    padding: 0.3em 1.5em;
   }
 }
 
